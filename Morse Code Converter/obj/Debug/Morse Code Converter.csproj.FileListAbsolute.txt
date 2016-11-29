@@ -1,0 +1,6 @@
+C:\Users\Owner\Desktop\TIY\week-4\day-2\Morse Code Converter\Morse Code Converter\bin\Debug\Morse Code Converter.exe.config
+C:\Users\Owner\Desktop\TIY\week-4\day-2\Morse Code Converter\Morse Code Converter\bin\Debug\Morse Code Converter.exe
+C:\Users\Owner\Desktop\TIY\week-4\day-2\Morse Code Converter\Morse Code Converter\bin\Debug\Morse Code Converter.pdb
+C:\Users\Owner\Desktop\TIY\week-4\day-2\Morse Code Converter\Morse Code Converter\obj\Debug\Morse Code Converter.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\TIY\week-4\day-2\Morse Code Converter\Morse Code Converter\obj\Debug\Morse Code Converter.exe
+C:\Users\Owner\Desktop\TIY\week-4\day-2\Morse Code Converter\Morse Code Converter\obj\Debug\Morse Code Converter.pdb
