@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Morse_Code_Converter
 {
-    class MorseDict
+    class MorseDict 
     {
         // Create Dictionary
 
         public Dictionary<char, string> lookupDictionary = new Dictionary<char, string>();
 
-        string fileName = "morse.csv";
+        string fileName = "morse.csv"; // Access csv
 
         public MorseDict()
         {
@@ -22,21 +22,27 @@ namespace Morse_Code_Converter
                 while (sr.Peek() > 0)
                 {
                     var line = sr.ReadLine().Split(',');
-                    var toLetter = Convert.ToChar(line[0]);
-                    var toMorse = line[1];
-                    lookupDictionary.Add(toLetter, toMorse);
-                    Console.WriteLine(line);
+                    var toLetter = Convert.ToChar(line[0]); // this is dictionary key
+                    var toMorse = line[1]; // this value is returned to user 
+                    lookupDictionary.Add(toLetter, toMorse); // Building dictionary
+                    
                 }
 
             }
 
 
-        }
 
-        public string GetMorseCode(char letter )
+        }
+        
+
+        public string GetMorseCode(char letter)
         {
-            Console.WriteLine($"getting morse code for {letter}"); // obtaining key for dictionary
+            var morse = lookupDictionary[letter]; // Gavin 
+            
+
+            Console.Write($"Your phrase was {letter} which conerts to {morse} in code"); // obtaining key for dictionary and returning code
             return string.Empty;
+
         }
 
     }
